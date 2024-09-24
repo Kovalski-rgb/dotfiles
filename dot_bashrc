@@ -1,0 +1,29 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+alias c=clear
+alias xc=exit
+alias shd="shutdown now"
+alias rr="source ~/.bashrc"
+
+alias vim=nvim
+
+alias bhe="nvim ~/.bashrc"
+alias call-print="sh ~/.scripts/print.sh"
+alias cf3="nvim ~/.config/i3/config"
+
+alias big="du -hcs */ 2>/dev/null | sort -h"
+alias biga="du -chd 0 * 2>/dev/null | sort -h"
+alias gw-class="xprop | grep -- \"WM_CLASS\""
+alias update-mirrors="sudo reflector --protocol https --latest 10 --sort rate --save /etc/pacman.d/mirrorlist"
+
+export PATH=$PATH:/home/kovalski/.spicetify
+
