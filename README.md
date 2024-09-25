@@ -10,7 +10,7 @@ chezmoi init --apply git@github.com:$GITHUB_USERNAME/dotfiles.git
 ```
 
 ### What I have yet To do/backup:
-- [ ] nvim config & backup!!!
-- [ ] config a notification service
-- [ ] instructions for a new arch install (w/ min list of packages + i3)
-- [ ] bash/zsh customizarion & backup
+- [ ] setup nvim as IDE & backup it!!!
+- [ ] setup a notification service
+- [ ] write instructions for a new, fresh arch install (w/ necessary list of packages + i3)
+- [ ] bash/zsh customization & backup (maybe time between commands only, not autocomplete and syntax)
