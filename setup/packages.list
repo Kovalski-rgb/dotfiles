@@ -1,0 +1,24 @@
+# ##################################################################
+# # COMENTARIOS SO FUNCIONAM SE O PRIMEIRO CARACTERE DA LINHA É UM #
+# ##################################################################
+
+# pacotes pro hyrpland funcionar supimpa
+pipewire
+wireplumber
+
+# waybar, printscreen, colorpicker e popup com as keybinds
+waybar
+hyprshot
+hyprpicker
+wofi
+
+# plugin split monitors workspace para a waybar
+cmake
+meson
+cpio
+pkg-config
+gcc
+
+# suporte pra fonte japonesa, e emojo pro discord.
+adobe-source-han-sans-jp-fonts
+noto-fonts-emoji
