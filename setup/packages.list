@@ -2,6 +2,8 @@
 # # COMENTARIOS SO FUNCIONAM SE O PRIMEIRO CARACTERE DA LINHA É UM #
 # ##################################################################
 
+hyprland
+
 # pacotes pro hyrpland funcionar supimpa
 pipewire
 wireplumber
@@ -22,3 +24,6 @@ gcc
 # suporte pra fonte japonesa, e emojo pro discord.
 adobe-source-han-sans-jp-fonts
 noto-fonts-emoji
+
+# uso pessoal
+gvim
