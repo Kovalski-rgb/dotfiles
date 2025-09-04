@@ -7,8 +7,7 @@
     "margin-top": 8,
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "custom/teste"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "mpris"
@@ -16,7 +15,8 @@
     "modules-right": [
         "pulseaudio",
         "keyboard-state",
-        "clock"
+        "clock",
+        "custom/power"
     ],
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -33,10 +33,6 @@
           "10": "5"
         },
         "all-outputs": false
-    },
-    "custom/teste": {
-        "format": "oi",
-        "on-click": "firefox"
     },
     "mpris": {
             "format": "{title} - {artist}",
@@ -77,5 +73,22 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "group/power": {
+        "orientation": "vertical",
+	"drawer": {
+		"transition-duration": 500,
+		"transition-left-to-right": true
+        },
+        "modules": [
+            "custom/power",
+            "custom/power"
+        ]
+    },
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": true,
+        "tooltip-format": "Power Off",
+        "on-click": "poweroff"
     }
 }

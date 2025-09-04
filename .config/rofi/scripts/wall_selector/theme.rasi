@@ -1,0 +1,50 @@
+* {
+    background-color:  transparent; 
+    text-color: transparent;
+}
+
+window {
+    background-color: black / 50%;
+    padding:  32px;
+    height:   640px;
+    width:    640px;
+}
+
+element {
+    children: [element-icon];
+}
+
+element-icon {
+  expand: true;
+  size: 80px;
+}
+
+mainbox {
+    expand: true;
+    background-color: transparent;
+    children: [listview, icon-current-entry];
+}
+
+icon-current-entry {
+    size: 400px;
+}
+
+listview {
+    lines: 3;
+    columns: 7;
+    flow: horizontal;
+}
+
+element selected normal {
+    background-color: white / 10%;
+    text-color: transparent;
+}
+
+element normal active {
+    text-color: transparent;
+}
+
+element selected active {
+    background-color: transparent;
+    text-color: transparent;
+}

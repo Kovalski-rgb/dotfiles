@@ -55,6 +55,7 @@ button:active {
 #workspaces button.active {
     color: #FFFFFF;
     background-color: #4D2236;
+    transition: all 0.1s linear;
 }
 
 #workspaces button.visible {
@@ -91,7 +92,8 @@ button:active {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
-#mpd {
+#mpd,
+#custom-power {
     padding: 0 10px;
     color: #ffffff;
 
@@ -112,6 +114,11 @@ button:active {
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
+}
+
+#custom-power {
+    background-color: #FFCAAB;
+    color: #121D31;
 }
 
 #clock {

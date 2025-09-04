@@ -12,7 +12,7 @@ wireplumber
 waybar
 hyprshot
 hyprpicker
-wofi
+rofi
 
 # plugin split monitors workspace para a waybar
 cmake

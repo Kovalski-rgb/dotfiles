@@ -1,0 +1,8 @@
+configuration {
+    modi: "run,drun";
+    show-icons: true;
+    monitor: -3;
+}
+
+@theme "theme.rasi"
+

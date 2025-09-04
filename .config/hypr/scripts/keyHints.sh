@@ -20,7 +20,7 @@ EOF
 )
 
 formatted=$(echo -e "$keybindings" | column -s '|' -t)
-echo -e "$formatted" | wofi -dmenu -p "Key Bindings" -theme ~/.config/KeyHints/keyhint.rasi
+echo -e "$formatted" | rofi -dmenu -p "Key Bindings" 
 
 # todo
 #    Alt V       | Clipboard Menu (cliphist)

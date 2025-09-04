@@ -1,0 +1,9 @@
+{
+    "group/power": {
+        "orientation": "vertical",
+        "modules": [
+            "power",
+            "power"
+        ]
+    }
+}
