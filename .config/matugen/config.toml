@@ -1,0 +1,9 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img",  "--transition-duration", "0.5", "--transition-type", "wipe", "--transition-fps", "60"]
+set = true
+
+[templates.waybar]
+input_path = './templates/waybar.css'
+output_path = '../waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'

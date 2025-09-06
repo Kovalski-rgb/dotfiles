@@ -1,7 +1,11 @@
 configuration {
     modi: "run,drun";
     show-icons: true;
-    monitor: -3;
+}
+
+window {
+    location: center;
+    anchor: center;
 }
 
 @theme "theme.rasi"
