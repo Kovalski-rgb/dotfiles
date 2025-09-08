@@ -10,6 +10,9 @@ alias bhh='vim ~/.config/hypr/hyprland.conf'
 alias cdh='cd ~/.config/hypr/'
 alias l='ls -la'
 
+alias vim=nvim
+alias tow='$(cd ~/dotfiles && stow .)'
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
